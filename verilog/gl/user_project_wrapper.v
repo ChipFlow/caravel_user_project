@@ -53,7 +53,7 @@ module user_project_wrapper (user_clock2,
  output [31:0] wbs_dat_o;
  input [3:0] wbs_sel_i;
 
-user_project_core_lambdasoc core (
+user_project_core_lambdasoc_pnr core (
     .vccd1(vccd1),
     .vssd1(vssd1),
     .io_in(io_in),
