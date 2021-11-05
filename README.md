@@ -1,11 +1,17 @@
-# Caravel User Project
+# nMigen+Coriolis Test SoC
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![UPRJ_CI](https://github.com/efabless/caravel_project_example/actions/workflows/user_project_ci.yml/badge.svg)](https://github.com/efabless/caravel_project_example/actions/workflows/user_project_ci.yml) [![Caravel Build](https://github.com/efabless/caravel_project_example/actions/workflows/caravel_build.yml/badge.svg)](https://github.com/efabless/caravel_project_example/actions/workflows/caravel_build.yml)
+This is a submission of a test SoC for MPW3 built from https://github.com/ChipFlow/nmigen-coriolis
 
-| :exclamation: Important Note            |
-|-----------------------------------------|
+It contains:
+ - Minerva RV32IM CPU
+ - 512 bytes SRAM
+ - (Q)SPI flash for code and data memory using `spimemio` from picosoc
+ - HyperRAM for RAM extension using a derivative of `litehyperbus`
+ - 8-bit GPIO
+ - UART, timer, and interrupt controller
 
-## Please fill in your project documentation in this README.md file 
 
-
-Refer to [README](docs/source/index.rst) for this sample project documentation. 
+Built using:
+ - nMigen
+ - Yosys+ABC
+ - [Coriolis](https://gitlab.lip6.fr/vlsi-eda/coriolis) for PnR; with [PDKMaster](https://gitlab.com/Chips4Makers/PDKMaster) and [flexcell](https://gitlab.com/Chips4Makers/c4m-flexcell) used in place of the standard sky130 cells.
