@@ -1,0 +1,18 @@
+---
+project:
+  description: "A test SoC using Coriolis for place and route."
+  foundry: "SkyWater"
+  git_url: "https://github.com/ChipFlow/caravel_user_project_mpw3"
+  organization: "ChipFlow"
+  organization_url: "https://github.com/ChipFlow"
+  owner: "gatecat"
+  process: "SKY130"
+  project_name: "nmigen_coriolis_soc"
+  project_id: "00000000"
+  tags:
+    - "Coriolis"
+  category: "Test Harness"
+  top_level_netlist: "caravel/verilog/gl/caravel.v"
+  user_level_netlist: "verilog/gl/user_project_wrapper.v"
+  version: "1.00"
+  cover_image: "docs/source/_static/caravel_harness.png"

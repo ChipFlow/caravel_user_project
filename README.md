@@ -1,6 +1,6 @@
 # nMigen+Coriolis Test SoC
 
-This is a submission of a test SoC for MPW3 built from https://github.com/ChipFlow/nmigen-coriolis
+This is a submission of a test SoC for MPW3 built from https://github.com/ChipFlow/nmigen-coriolis/tree/sky130-mpw3-soc
 
 It contains:
  - Minerva RV32IM CPU
